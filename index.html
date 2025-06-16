@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B&B Cleaning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-text">B&BCleaning</span><span class="brand-accent">Pro</span>
+            </div>
+            
+            <nav class="nav-desktop">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+        </div>
+        
+        <div class="nav-mobile" id="mobileNav">
+            <a href="#home" class="nav-link-mobile">Home</a>
+            <a href="#services" class="nav-link-mobile">Services</a>
+            <a href="#about" class="nav-link-mobile">About</a>
+            <a href="#testimonials" class="nav-link-mobile">Testimonials</a>
+            <a href="#contact" class="nav-link-mobile">Contact</a>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">
+                Professional Cleaning <span class="text-accent">Services</span>
+            </h1>
+            <p class="hero-description">
+                We provide top-quality cleaning services for homes and businesses. 
+                Experience the difference with our professional, reliable, and thorough cleaning team.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('contact')">Book Now</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('services')">Our Services</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-description">
+                    We offer a wide range of cleaning services to meet all your needs. Our professional team is equipped to handle any cleaning challenge.
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.pexels.com/photos/4108715/pexels-photo-4108715.jpeg" alt="Residential Cleaning">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Residential Cleaning</h3>
+                        <p class="service-description">We make your home spotless with our comprehensive residential cleaning services, customized to your specific needs.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.pexels.com/photos/3760607/pexels-photo-3760607.jpeg" alt="Commercial Cleaning">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Commercial Cleaning</h3>
+                        <p class="service-description">Keep your business premises clean and professional with our reliable commercial cleaning services.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.pexels.com/photos/4107112/pexels-photo-4107112.jpeg" alt="Move In/Out Cleaning">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Move In/Out Cleaning</h3>
+                        <p class="service-description">Starting fresh or leaving your place? Our specialized move in/out cleaning ensures everything is pristine.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-cta">
+                <button class="btn btn-primary" onclick="scrollToSection('contact')">Request a Quote</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/4107098/pexels-photo-4107098.jpeg" alt="Our cleaning team">
+                    <div class="experience-badge">
+                        <p class="experience-years">10+ Years</p>
+                        <p class="experience-text">of Experience</p>
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <h2 class="section-title">About Our Company</h2>
+                    <p class="about-description">
+                        With over 10 years of experience, we've built our reputation on providing exceptional cleaning services. 
+                        Our team is committed to delivering the highest quality of cleanliness while ensuring customer satisfaction with every job.
+                    </p>
+                    <p class="about-description">
+                        We understand that every space is unique, which is why we offer customized cleaning solutions tailored to your specific needs and preferences.
+                    </p>
+                    
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <span class="check-icon">✓</span>
+                            <span>Experienced & professional team</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="check-icon">✓</span>
+                            <span>Eco-friendly cleaning products</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="check-icon">✓</span>
+                            <span>100% satisfaction guarantee</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="check-icon">✓</span>
+                            <span>Fully insured and bonded</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="check-icon">✓</span>
+                            <span>Flexible scheduling options</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="check-icon">✓</span>
+                            <span>Transparent pricing with no hidden fees</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-description">
+                    Don't just take our word for it. Here's what our satisfied customers have to say about our cleaning services.
+                </p>
+            </div>
+            
+            <div class="testimonial-container">
+                <div class="testimonial-card" id="testimonialCard">
+                    <div class="stars" id="testimonialStars"></div>
+                    <p class="testimonial-content" id="testimonialContent"></p>
+                    <div class="testimonial-author">
+                        <img class="author-image" id="authorImage" alt="">
+                        <div class="author-info">
+                            <p class="author-name" id="authorName"></p>
+                            <p class="author-role" id="authorRole"></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-controls">
+                    <button class="control-btn" id="prevBtn">‹</button>
+                    <div class="dots" id="testimonialDots"></div>
+                    <button class="control-btn" id="nextBtn">›</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-description">
+                    Have questions or ready to book a cleaning service? Get in touch with us today.
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-title">Get In Touch</h3>
+                    
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <div>
+                            <p class="contact-label">Phone</p>
+                            <p class="contact-value">(123) 456-7890</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <div>
+                            <p class="contact-label">Email</p>
+                            <p class="contact-value">info@cleanpro.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <p class="contact-label">Office</p>
+                            <p class="contact-value">
+                                123 Cleaning Street<br>
+                                Sparkle City, SC 12345
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="business-hours">
+                        <h4 class="hours-title">Business Hours</h4>
+                        <p>Monday - Friday: 8am - 6pm</p>
+                        <p>Saturday: 9am - 4pm</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h3 class="contact-title">Request a Quote</h3>
+                    
+                    <div id="successMessage" class="success-message" style="display: none;">
+                        <span class="success-icon">✓</span>
+                        <p>Thank you for your message! We'll get back to you shortly.</p>
+                    </div>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required placeholder="Your email">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Needed</label>
+                                <select id="service" name="service">
+                                    <option value="residential">Residential Cleaning</option>
+                                    <option value="commercial">Commercial Cleaning</option>
+                                    <option value="move">Move In/Out Cleaning</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your cleaning needs..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" id="submitBtn">
+                            <span id="submitText">Send Message</span>
+                            <span id="submitLoader" class="loader" style="display: none;"></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-brand">
+                        <span>B&BCleaning</span><span class="text-accent">Pro</span>
+                    </h3>
+                    <p class="footer-description">
+                        Professional cleaning services for homes and businesses. We make cleaning simple, efficient, and hassle-free.
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#services" class="footer-link">Services</a></li>
+                        <li><a href="#about" class="footer-link">About</a></li>
+                        <li><a href="#testimonials" class="footer-link">Testimonials</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 B&BCleanPro. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#" class="legal-link">Privacy Policy</a>
+                    <a href="#" class="legal-link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
