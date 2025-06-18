@@ -538,6 +538,11 @@ section {
 .business-hours p {
     color: #6b7280;
     margin-bottom: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .contact-form-container {
