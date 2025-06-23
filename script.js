@@ -1,26 +1,6 @@
 // Testimonials data
 const testimonials = [
-    {
-        name: 'Sarah Johnson',
-        role: 'Homeowner',
-        content: 'I have been using this cleaning service for over a year now, and I could not be happier. My home is always spotless, and the team is always professional and thorough!',
-        rating: 5,
-        imageUrl: 'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg'
-    },
-    {
-        name: 'Michael Brown',
-        role: 'Office Manager',
-        content: 'We hired them for our office cleaning, and the difference was immediately noticeable. Their attention to detail and reliability has made them an essential part of our business operations.',
-        rating: 5,
-        imageUrl: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg'
-    },
-    {
-        name: 'Jennifer Smith',
-        role: 'Property Manager',
-        content: 'As a property manager, I need cleaning services I can trust. This company consistently delivers exceptional results for our move-out cleanings, making our turnover process much smoother.',
-        rating: 4,
-        imageUrl: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg'
-    }
+
 ];
 
 // Global variables
